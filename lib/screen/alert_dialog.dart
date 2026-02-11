@@ -15,7 +15,7 @@ class AlertDialogBox extends StatelessWidget {
         builder: (BuildContext context){
           return Expanded(child: AlertDialog(
             title: Text("Alert!"),
-            content: Text("Do you want to delete"),
+            content: Text("Do you want to delete?"),
             actions: [
               TextButton(onPressed: (){
                 MySnackBar("Delete Success", context);
