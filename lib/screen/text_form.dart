@@ -7,7 +7,9 @@ class TextForm extends StatelessWidget {
   Widget build(BuildContext context) {
     //Button Style Start
       ButtonStyle buttonStyle = ElevatedButton.styleFrom(
-        minimumSize: Size(double.infinity, 60)
+        minimumSize: Size(double.infinity, 60),
+            backgroundColor: Colors.blue,
+            foregroundColor: Colors.white,
       );
     //Button Style End
     return Scaffold(
