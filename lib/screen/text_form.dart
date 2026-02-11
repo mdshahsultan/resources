@@ -34,7 +34,7 @@ class TextForm extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.all(10),
-            child: ElevatedButton(onPressed: (){}, child: Text("Submit"), style: buttonStyle,),
+            child: ElevatedButton(onPressed: (){}, child: Text("Submit!"), style: buttonStyle,),
           ),
         ],
       ),
