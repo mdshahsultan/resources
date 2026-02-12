@@ -30,7 +30,7 @@ class GridViewBuilder extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green.shade400,
-        title: Text("Text Form Field", style: TextStyle(color: Colors.white),),
+        title: Text("Grid View Builder", style: TextStyle(color: Colors.white),),
         centerTitle: true,
       ),
       body: GridView.builder(
