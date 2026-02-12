@@ -8,6 +8,7 @@ class Homefragment extends StatelessWidget {
     return Container(
       child: Center(
         child: Text("Home Fragment"),
+
       ),
     );
   }
