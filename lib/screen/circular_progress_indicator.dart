@@ -13,11 +13,21 @@ class CircularProgress extends StatelessWidget {
       ),
 
       body: Center(
-        child: CircularProgressIndicator(
-          backgroundColor: Colors.blue.shade200,
+        //CircularProgressIndicator Start
+        // child: CircularProgressIndicator(
+        //   backgroundColor: Colors.blue.shade200,
+        //   color: Colors.blue,
+        //   strokeWidth: 6,
+        // ),
+        //CircularProgressIndicator End
+
+        //LinearProgressIndicator Start
+        child: LinearProgressIndicator(
           color: Colors.blue,
-          strokeWidth: 6,
+          minHeight: 6,
+          backgroundColor: Colors.blue.shade100,
         ),
+
       ),
     );
   }
