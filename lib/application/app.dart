@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../screen/alert_dialog.dart';
+import '../screen/card.dart';
+import '../screen/circular_progress_indicator.dart';
 import '../screen/grid_view_builder.dart';
 import '../screen/list_view.dart';
 import '../screen/navigation.dart';
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Navigation(),
+      home: CircularProgress(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
 
