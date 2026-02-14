@@ -3,6 +3,7 @@ import 'package:resources/screen/aspect_ratio.dart';
 import '../screen/alert_dialog.dart';
 import '../screen/card.dart';
 import '../screen/circular_progress_indicator.dart';
+import '../screen/expended_flex.dart';
 import '../screen/grid_view_builder.dart';
 import '../screen/icon_class.dart';
 import '../screen/list_view.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SingleChildScroll(),
+      home: ExpendedFlex(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
 
