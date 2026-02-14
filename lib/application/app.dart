@@ -7,6 +7,7 @@ import '../screen/expended_flex.dart';
 import '../screen/grid_view_builder.dart';
 import '../screen/icon_class.dart';
 import '../screen/list_view.dart';
+import '../screen/mediaquery.dart';
 import '../screen/navigation.dart';
 import '../screen/single_child_scroll_view.dart';
 import '../screen/tab_bar_activity.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExpendedFlex(),
+      home: Mediaquery(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
 
